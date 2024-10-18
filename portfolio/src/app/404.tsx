@@ -7,11 +7,9 @@ const Notfound = () => {
     <h1>404</h1>
     <div>
     <p>Oops, não conseguimos encontrar</p>
-    <spam>clique no botão abaixo para voltar</spam>
+    <span>clique no botão abaixo para voltar</span>
     </div>
-    <Link href="/">
-    Ir para pág inicial
-    </Link>
+    <Link href="/">Ir para pág inicial</Link>
     </div>
     
     );
