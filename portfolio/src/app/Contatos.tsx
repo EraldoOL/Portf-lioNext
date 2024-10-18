@@ -2,7 +2,7 @@ const contatos = () => {
   return (
     <div>
     <h1>Contatos</h1>
-    <a href="/">Ir para página inicial</a>
+    <Link href="/">Ir para página inicial</Link>
     </div>
     )
 }
