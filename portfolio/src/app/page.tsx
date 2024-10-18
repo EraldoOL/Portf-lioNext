@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-const home = () => {
+const Home = () => {
   return (
 
       <main>
@@ -11,4 +11,4 @@ const home = () => {
   );
 }
 
-export default home;
+export default Home;

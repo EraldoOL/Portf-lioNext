@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const notfound = () => {
+const Notfound = () => {
   return(
     
     <div>
@@ -17,4 +17,4 @@ const notfound = () => {
     );
 };
 
-export default notfound;
+export default Notfound;
