@@ -35,6 +35,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      
+      <header>
+      <Link href="/">
+      <img scr="/favicon.svg" />
+      </Link>
+      
+      <nav>
+      <Link href="/">Sobre mim</Link>
+      {/*<Link href="/">Portfolio</Link>*/}
+      <Link href="/contatos">Contato</Link>
+      </nav>
+      
+      </header>
+      
+      
         <main>{children}</main> {/* Renderiza o conteúdo das páginas */}
       </body>
     </html>
