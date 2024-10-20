@@ -2,6 +2,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from 'next/link';
+import Image from 'next/image';
 
 // Carregar fontes locais
 const geistSans = localFont({
@@ -38,7 +40,7 @@ export default function RootLayout({
       
       <header>
       <Link href="/">
-      <img scr="/favicon.svg" />
+      <img scr="/favicon.svg" alt="" />
       </Link>
       
       <nav>
