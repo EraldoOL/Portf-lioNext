@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
+import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -22,9 +23,16 @@ const Home = () => {
     <li style={{ background: "#6BDDFA", color:"#000000"}}>react</li>
     <li style={{ background: "#EFD81D", color:"#000000"}}>javascript</li>
     <li style={{ background: "#000000",color:"#FFFFFF"}}>next.js</li>
-    
     </ul>
+    </div>
     
+    <div>
+    <Image src="https://avatars.githubusercontent.com/u/61247833?v=4" alt="" />
+    <p>
+    <span>1.5+</span>
+    <br />
+    anos de experiência
+    </p>
     </div>
     </>
  
