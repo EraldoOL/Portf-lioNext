@@ -19,7 +19,10 @@ const Home = () => {
     </div>
     <ul>
     <li style={{ background: "#2F74C0", color:"#FFFFFF"}}>typescript</li>
-    <li></li>
+    <li style={{ background: "#6BDDFA", color:"#000000"}}>react</li>
+    <li style={{ background: "#EFD81D", color:"#000000"}}>javascript</li>
+    <li style={{ background: "#000000",color:"#FFFFFF"}}>next.js</li>
+    
     </ul>
     
     </div>
