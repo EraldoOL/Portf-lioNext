@@ -14,7 +14,34 @@ const Contatos = () => {
     
    <div>
     <h1>Contatos</h1>
-    <Link href="/">Ir para página inicial</Link>
+    
+    <ul>
+    <li>
+    <spam>E-mail</spam>
+    <div>
+    <a href="mailto:eo80797@gmail.com"> meu email</a>
+    </div>
+    </li>
+        <li>
+    <spam>E-mail</spam>
+    <div>
+    <a href="mailto:eo80797@gmail.com"> meu email</a>
+    </div>
+    </li>
+        <li>
+    <spam>LinkedIn</spam>
+    <div>
+    <a href="https://www.Linkedin.com/in/EraldoOL"> meu LinkedIn</a>
+    </div>
+    </li>
+        <li>
+    <spam>Github</spam>
+    <div>
+    <a href="https://github.com/EraldoOL"> meu Github</a>
+    </div>
+    </li>
+    </ul>
+    
    </div>
     </>
     
