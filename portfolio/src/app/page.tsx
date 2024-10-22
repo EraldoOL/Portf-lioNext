@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { JetBrains_Mono} from 'next/font/google';
 
 const jetbrains_mono = JetBrains_Mono({
-  subsets: ['Latin'],
+  subsets: ['latin'],
   weight: '400',
 });
 
