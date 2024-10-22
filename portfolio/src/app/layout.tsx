@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from 'next/link';
 import Image from 'next/image';
+import {Roboto} from 'next/font/google';
 
 // Carregar fontes locais
 const geistSans = localFont({
@@ -15,6 +16,10 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+const roboto = Roboto({
+  subsets: ['Latin'],
+  weight: '500',
 });
 
 // Configuração do metadata para SEO e head global
@@ -38,7 +43,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       
-      <header>
+      <header className={roboto.className}>
       <Link href="/">
       <Image src="/favicon.svg" alt="" width={55} height={55}/>
       </Link>
