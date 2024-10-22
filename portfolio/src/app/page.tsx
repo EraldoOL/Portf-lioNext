@@ -1,6 +1,13 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from 'next/image';
+import { JetBrains_Mono} from 'next/font/google';
+
+const jetbrains_mono = JetBrains_Mono({
+  subsets: ['Latin'],
+  weight: '400',
+});
+
 
 const Home = () => {
   return (
