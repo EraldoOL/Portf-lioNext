@@ -18,7 +18,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 const roboto = Roboto({
-  subsets: ['Latin'],
+  subsets: ['latin'],
   weight: '500',
 });
 
