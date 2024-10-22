@@ -40,7 +40,7 @@ export default function RootLayout({
       
       <header>
       <Link href="/">
-      <Image src="/favicon.svg" alt="" width={200} height={200}/>
+      <Image src="/favicon.svg" alt="" width={55} height={55}/>
       </Link>
       
       <nav>
