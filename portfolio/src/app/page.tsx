@@ -27,7 +27,9 @@ const Home = () => {
     </div>
     
     <div>
-    <Image src="https://avatars.githubusercontent.com/u/139938613?s=400&u=3307ad614c532f668543ad211dd4f7c78678da77&v=4" alt="" width={500} height={500} />
+    <Image src="https://avatars.githubusercontent.com/u/139938613?s=400&u=3307ad614c532f668543ad211dd4f7c78678da77&v=4" alt=""
+    unoptimized
+    width={500} height={500} />
     <p>
     <span>1.5+</span>
     <br />
