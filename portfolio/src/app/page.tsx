@@ -23,7 +23,7 @@ const Home = () => {
     <title>Sobre mim | Eraldo</title>
     </Head>
     <meta name="description" content="Sou um desenvolvedor Web" />
-    <main className="flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg xl:text-left xl:flex-nowrap xl:justify-between">
+    <main className="flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between">
     <div className={`${jetbrains_mono.className} py-12 px-6 md:px-32 space-y-10 md:space-y-28 text-white flex-col items-center xl:items-start gap-4 w-full xl:w-120`}>
     <h1 className="text-3xl sm:text-7xl xl:leading-[5rem]">Olá, sou&nbsp;
     <span className="font-bold">Eraldo</span>
@@ -33,11 +33,11 @@ const Home = () => {
     <h2 className={`${roboto.className} mb-12`}>Sou um desenvolvedor Web</h2>
     <Link href="/contatos" className="p-3 bg-e-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80">Fale comigo</Link>
     </div>
-    <ul>
-    <li style={{ background: "#2F74C0", color:"#FFFFFF"}}>typescript</li>
-    <li style={{ background: "#6BDDFA", color:"#000000"}}>react</li>
-    <li style={{ background: "#EFD81D", color:"#000000"}}>javascript</li>
-    <li style={{ background: "#000000",color:"#FFFFFF"}}>next.js</li>
+    <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl">
+    <li style={{ background: "#2F74C0", color:"#FFFFFF"}} className='w-fit p-2 rounded-md'>typescript</li>
+    <li style={{ background: "#6BDDFA", color:"#000000"}} className='w-fit p-2 rounded-md'>react</li>
+    <li style={{ background: "#EFD81D", color:"#000000"}} className='w-fit p-2 rounded-md'>javascript</li>
+    <li style={{ background: "#000000",color:"#FFFFFF"}} className='w-fit p-2 rounded-md'>next.js</li>
     </ul>
     </div>
     
