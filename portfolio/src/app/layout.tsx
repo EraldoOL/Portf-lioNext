@@ -43,7 +43,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       
-      <header className={roboto.className}>
+      <header className={`${roboto.className} bg-e-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
       <Link href="/">
       <Image src="/favicon.svg" alt="" width={55} height={55}/>
       </Link>
