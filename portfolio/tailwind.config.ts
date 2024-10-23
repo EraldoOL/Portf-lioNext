@@ -7,7 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extends: {
+    extend: {
       colors:{
         'e-gray-500': '#737994',
         'e-blue-500': '#8CAAEE',
