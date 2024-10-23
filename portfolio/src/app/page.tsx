@@ -2,8 +2,13 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from 'next/image';
 import { JetBrains_Mono} from 'next/font/google';
+import {Roboto} from 'next/font/google';
 
 const jetbrains_mono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: '400',
+});
+const roboto = Roboto({
   subsets: ['latin'],
   weight: '400',
 });
@@ -24,9 +29,9 @@ const Home = () => {
     <span className="font-bold">Eraldo</span>
     </h1>
 
-    <div>
-    <h2>Sou um desenvolvedor Web</h2>
-    <Link href="/contatos">Fale comigo</Link>
+    <div className="mb-12">
+    <h2 className={`${roboto.className} mb-12`}>Sou um desenvolvedor Web</h2>
+    <Link href="/contatos" className="p-3 bg-e-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80">Fale comigo</Link>
     </div>
     <ul>
     <li style={{ background: "#2F74C0", color:"#FFFFFF"}}>typescript</li>
