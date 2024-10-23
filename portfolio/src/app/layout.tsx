@@ -48,7 +48,7 @@ export default function RootLayout({
       <Image src="/favicon.svg" alt="" width={55} height={55}/>
       </Link>
       
-      <nav>
+      <nav className="hidden md:flex items-center gap-10 text-md">
       <Link href="/">Sobre mim</Link>
       {/*<Link href="/">Portfolio</Link>*/}
       <Link href="/contatos">Contato</Link>

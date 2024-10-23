@@ -18,7 +18,7 @@ const Home = () => {
     <title>Sobre mim | Eraldo</title>
     </Head>
     <meta name="description" content="Sou um desenvolvedor Web" />
-    <div className={jetbrains_mono.className}>
+    <div className={`${jetbrains_mono.className} py-12 px-6 md:px-32 space-y-10 md:space-y-28`}>
     <h1>Olá, sou &nbsp;</h1>
     <span>Eraldo</span>
     <div>
