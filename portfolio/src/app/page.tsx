@@ -41,12 +41,14 @@ const Home = () => {
     </ul>
     </div>
     
-    <div>
+    <div className="relative">
     <Image src="https://avatars.githubusercontent.com/u/139938613?s=400&u=3307ad614c532f668543ad211dd4f7c78678da77&v=4" alt=""
     unoptimized
-    width={500} height={500} />
-    <p>
-    <span>1.5+</span>
+    width={500} height={500}
+    className="rounded-full"
+    />
+    <p className="p-4 w-fit text-base leading-tight bg-e-blue-500 rounded-xl text-black absolute -bottom-[0.75rem] sm:bottom-3">
+    <span className="text-4xl">1.5+</span>
     <br />
     anos de experiência
     </p>
