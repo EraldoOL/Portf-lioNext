@@ -12,8 +12,16 @@ const config: Config = {
         'e-gray-500': '#737994',
         'e-blue-500': '#8CAAEE',
         'e-blue-900': '#303446',
-      }
-    }
+      },
+      width: {
+        120: '30rem',
+        125: '31.5rem',
+        
+      },
+      height: {
+        125: '31.25rem',
+      },
+    },
   },
   plugins: [],
 };

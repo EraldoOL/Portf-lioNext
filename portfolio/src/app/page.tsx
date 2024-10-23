@@ -19,9 +19,11 @@ const Home = () => {
     </Head>
     <meta name="description" content="Sou um desenvolvedor Web" />
     <main className="flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg xl:text-left xl:flex-nowrap xl:justify-between">
-    <div className={`${jetbrains_mono.className} py-12 px-6 md:px-32 space-y-10 md:space-y-28`}>
-    <h1>Olá, sou &nbsp;</h1>
-    <span>Eraldo</span>
+    <div className={`${jetbrains_mono.className} py-12 px-6 md:px-32 space-y-10 md:space-y-28 text-white flex-col items-center xl:items-start gap-4 w-full xl:w-120`}>
+    <h1 className="text-3xl sm:text-7xl xl:leading-[5rem]">Olá, sou&nbsp;
+    <span className="font-bold">Eraldo</span>
+    </h1>
+
     <div>
     <h2>Sou um desenvolvedor Web</h2>
     <Link href="/contatos">Fale comigo</Link>
